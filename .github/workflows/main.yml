@@ -31,5 +31,5 @@ jobs:
       - name: Run test in sub-folder
         uses: borales/actions-yarn@v4
         with:
-          cmd: test
+          cmd: preview
           dir: 'frontend' # will run `yarn test` in `frontend` sub folder
